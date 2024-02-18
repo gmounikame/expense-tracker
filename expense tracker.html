@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expense tracker.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+
+    <section>
+        <form id="expense-form">
+            <label for="description">Date:</label>
+            <input type="date" id="expensedate" name="expensedate" required>
+            <label for="description">Amount:</label>
+            <input type="text" id="expensedescription" name="description" required>
+            <label for="description">Category:</label>
+            <input type="texts" id="expensecategory" name="Category" required>
+            <label for="amount">Description:</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <button type="button" onclick="submit">Submit</button>
+        </form>
+
+        <div class="expense">
+            <h2>Expense List</h2>
+            <ul id="expense-list">
+                <label for="Salaries">Salaries:  </label>
+                <input type="number" id="expensesalaries" name="salaries" required><br><br>
+                <label for="Salaries">Groceries:    </label>
+                <input type="number" id="expensegroceries" name="groceries" required><br><br>
+                <label for="Salaries"> Electricitybill: </label>
+                <input type="number" id="expensebill" name="electricitybill" required><br><br>
+                <label for="Salaries"> Movietickets: </label>
+                <input type="number" id="expensetickets" name="movietickets" required><br><br>
+                <label for="Salaries"> Tax Expenses: </label>
+                <input type="number" id="expensetax" name="tx" required><br><br>
+                
+                </ul>
+        </div>
+        
+        <div class="expense-table"> 
+            <h2>Expense Summary</h2>
+           
+            <div class="total-amount"> 
+                  
+                <label for="Amount"> Total Amount: </label>
+                <input type="number" id="expenseamount" name="txotal amount required>
+                
+            </div>
+
+        
+           
+
+        </div>
+    </section>
+   
+</body>
+</html>
